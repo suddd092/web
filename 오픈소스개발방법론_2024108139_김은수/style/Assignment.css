@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+ul{
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* 폰트 */
+h2, h3 {
+    font-family: "Do Hyeon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 다운로드 */
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #6b705c;
+    border-radius: 40px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #283618;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    flex-direction: column;
+    background-color: #ccd5ae;
+}
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navi h1 {
+    font-size: 70px;
+    color: #283618;
+    margin-top: 50px;
+    font-family: "Gasoek One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navi nav {
+    margin-top: 50px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* 본문 */
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+.main .basic figure {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+.main .basic img {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.basic figcaption h2 {
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+.basic figcaption ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Do Hyeon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.basic figcaption ul li {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+/* 간단한 소개 */
+.main .detail {
+    margin: 120px 0 68px;
+    padding-bottom: 120px;
+    border-top: 1px solid #d4a373;
+    border-bottom: 1px solid #d4a373;
+}
+.detail .title {
+    font-size: 65px;
+    line-height: 60px;
+    margin: 100px;
+    text-align: center;
+}
+#introduction {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.introlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}    
+.introcard img {
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.introcard p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px
+}
+.introcard h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.introcard {
+    width: 250px;
+    height: 330px;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.introcard audio {
+    width: 95%;
+    height: 30px;
+}
+
+/* footer */
+.footer {
+    background-color: #ccd5ae;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+.footer .contents {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* 버튼 */
+.link-top {
+    position: fixed;
+    bottom: 184px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
